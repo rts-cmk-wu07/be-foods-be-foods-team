@@ -5,13 +5,14 @@
   /* font-family: 'Ubuntu',
 sans-serif; */
 
-/* -----Color palette--------- */
+/* Color palette--------- */
 /* Primary-color: #fff (white) */
 /* Secondary-color: #4E546B (Blue-grey) */
 /* Third-color: #6fcf97 (Light Green) */
 /* Background-color: #F2F2F2 (white-grey */
-/*-----------------------*/
 
+
+/*----------------*/
 @import url(./variables.css);
 
 *{
