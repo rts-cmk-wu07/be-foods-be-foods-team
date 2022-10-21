@@ -10,20 +10,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="/assets/js/script.js" defer></script>
+    <script src="/assets/js/script.js" type="module" defer></script>
+    <link rel="stylesheet" href="/components/modal/modal.css">
 </head>
 <body>
+
+   
+<!-- <h2>Modal Example</h2>
+
+
+<button class="modal-btn">Open Modal</button> -->
+
+
+
     <header class="page-header">
         <div class="logo">
-          <p>BE FOODS</p>
+          <img src="/assets/img/BeFoodsLogo.png" alt="">
         </div>
         <div class="login">
            <p>Log ind</p> 
         </div>
     </header>
 
-    <main class="main-max-width">
+    <main>
             <h1 class="veggie-title">Grøntsager</h1>
+            
+
+
+            
         <section class="veggie-boxes">
 
       <!-- JUST SOME HARD-CODED BOXES FOR STYLE TESTING, CAN BE REMOVED LATER -->
@@ -31,42 +45,94 @@
                 <div class="veggie-boxes__content">
                 <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" alt="">
                 <p class="price">29kr </p>
-                <button class="go-to-veggie">Se vare</button>
+                <button class="veggie-1 go-to-veggie modal-btn">Se vare</button>
             </div>
+            <!-- The modal for the first veggie --------->
+                    <div id="modal-get-first-veggie" class="modal__overlay">
+                        <div class="modal modal--scrollable modal--width-80">
+                            <div class="modal__close">×</div>
+                            <div class="modal__title">
+                                <h1>Hej</h1>
+                            </div>
+                            <div class="modal__content">
+                                <p>Grøntsag 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------->
             </div>
                 <div class="veggie-boxes__place-holder">
                     <div class="veggie-boxes__content">
                         <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" alt="">
                         <p class="price">Pris: </p>
-                        <button class="go-to-veggie">Se vare</button>
+                        <button class="veggie-2 go-to-veggie modal-btn">Se vare</button>
                     </div>
+                    <!-- The modal for the second veggie --------->
+                    <div id="modal-get-second-veggie" class="modal__overlay">
+                        <div class="modal modal--scrollable modal--width-80">
+                            <div class="modal__close">×</div>
+                            <div class="modal__title">
+                                <h1>Hej</h1>
+                            </div>
+                            <div class="modal__content">
+                                <p>Grøntsag 2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------->
                 </div>
                     <div class="veggie-boxes__place-holder">
                         <div class="veggie-boxes__content">
                             <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" alt="">
                             <p class="price">Pris: </p>
-                            <button class="go-to-veggie">Se vare</button>
+                            <button class="veggie-3 go-to-veggie modal-btn">Se vare</button>
                         </div>
                     </div>
+                    <!-- The modal for the 3rd veggie --------->
+                    <div id="modal-get-third-veggie" class="modal__overlay">
+                        <div class="modal modal--scrollable modal--width-80">
+                            <div class="modal__close">×</div>
+                            <div class="modal__title">
+                                <h1>Hej</h1>
+                            </div>
+                            <div class="modal__content">
+                                <p>Grøntsag 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------->
                      <div class="veggie-boxes__place-holder">
                 <div class="veggie-boxes__content">
                 <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" alt="">
                 <p class="price">Pris: </p>
-                <button class="go-to-veggie">Se vare</button>
+                <button class="veggie-4 go-to-veggie modal-btn">Se vare</button>
             </div>
+            <!-- The modal for the 4th veggie --------->
+            <div id="modal-get-fourth-veggie" class="modal__overlay">
+                <div class="modal modal--scrollable modal--width-80">
+                    <div class="modal__close">×</div>
+                    <div class="modal__title">
+                        <h1>Hej</h1>
+                    </div>
+                    <div class="modal__content">
+                        <p>Grøntsag 4</p>
+                    </div>
+                </div>
+            </div>
+            <!---------------------->
             </div>
                 <div class="veggie-boxes__place-holder">
                     <div class="veggie-boxes__content">
                         <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" alt="">
                         <p class="price">Pris: </p>
-                        <button class="go-to-veggie">Se vare</button>
+                        <button class="go-to-veggie modal-btn">Se vare</button>
                     </div>
                 </div>
                     <div class="veggie-boxes__place-holder">
                         <div class="veggie-boxes__content">
                             <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" alt="">
                             <p class="price">Pris: </p>
-                            <button class="go-to-veggie">Se vare</button>
+                            <button class="go-to-veggie modal-btn">Se vare</button>
                         </div>
                     </div>
                         <!-- ------------------------------------------------------------------------------------------>
@@ -116,7 +182,7 @@
                     <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc="
                         alt="">
                     <p class="price">Pris: </p>
-                    <button class="go-to-veggie">Se vare</button>
+                    <button class="go-to-veggie modal-btn">Se vare</button>
                 </div>
             </div>
             <div class="veggie-boxes__place-holder">
@@ -124,7 +190,7 @@
                     <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc="
                         alt="">
                     <p class="price">Pris: </p>
-                    <button class="go-to-veggie">Se vare</button>
+                    <button class="go-to-veggie modal-btn">Se vare</button>
                 </div>
             </div>
             <div class="veggie-boxes__place-holder">
@@ -132,7 +198,7 @@
                     <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc="
                         alt="">
                     <p class="price">Pris: </p>
-                    <button class="go-to-veggie">Se vare</button>
+                    <button class="go-to-veggie modal-btn">Se vare</button>
                 </div>
             </div>
             <!-- ------------------------------------------------------------------------------------------>
