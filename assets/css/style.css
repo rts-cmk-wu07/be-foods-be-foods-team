@@ -228,7 +228,15 @@ display: grid;
     line-height: 2.0;
 }
 
-@media (max-width: 1200px) {
- 
+@media (min-width: 1100px) {
+    .mySlides img {
+        height: 575px;
+    }
+    .main-max-width {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .veggie-title {
+        font-size: 28px;
+    }
 }
-
