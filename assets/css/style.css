@@ -230,3 +230,21 @@ display: grid;
     font-size: 10px;
     line-height: 2.0;
 }
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.payment button{
+    margin-top: 10px;
+}
+
+.payment input{
+    max-width: 100%;
+    color: black;
+    height: 25px;
+}
