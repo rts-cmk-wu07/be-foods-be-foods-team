@@ -288,6 +288,11 @@ display: grid;
     
 }
 
+.veggie-boxes__content img{
+    height: 160px;
+    object-fit: cover;
+}
+
 .payment button{
     margin-top: 10px;
 }
