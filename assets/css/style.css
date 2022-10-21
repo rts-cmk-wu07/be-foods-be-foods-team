@@ -25,6 +25,11 @@ body{
     background-color: var(--color-white);
 }
 
+.main-max-width{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 ::selection {
     background: var(--color-black);
     color: var(--color-white);
@@ -60,7 +65,7 @@ header p{
 }
 
 .logo{
-    color: rgb(69, 116, 73);
+    color: var(--color-dark-green);
     font-weight: bold;
 }
 .page-header{
@@ -88,7 +93,7 @@ header p{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .veggie-boxes__place-holder{
@@ -121,7 +126,6 @@ display: grid;
     max-width: 100%;
     position: relative;
     margin: auto;
-    margin: 10px;
 }
 
 
@@ -229,4 +233,17 @@ display: grid;
     font-family: 'Poppins',sans-serif;
     font-size: 10px;
     line-height: 2.0;
+}
+
+@media (min-width: 1100px) {
+    .mySlides img {
+        height: 575px;
+    }
+    .main-max-width {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .veggie-title {
+        font-size: 28px;
+    }
 }
