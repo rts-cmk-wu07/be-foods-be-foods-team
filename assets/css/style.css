@@ -15,6 +15,15 @@ sans-serif; */
 /*----------------*/
 @import url(./variables.css);
 
+a{
+    font-family: 'Poppins',
+        sans-serif;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -44,6 +53,9 @@ img{
 }
 
 /* -------- */
+h1{
+    font-size: 20px;
+}
 
 h1, h2, h3, h4, h5{
     font-family: 'Ubuntu', sans-serif;
@@ -233,6 +245,95 @@ display: grid;
     font-family: 'Poppins',sans-serif;
     font-size: 10px;
     line-height: 2.0;
+
+}
+.payment-main{
+    min-height: 80vh;
+}
+
+.let-go{
+    margin-bottom: 20px;
+}
+
+.happy-man{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.aaa{
+    display: flex;
+    gap: 20px;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.pay-now{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #36383f;
+    border-radius: 3px;
+    padding: 2px 63px;
+    
+    
+}
+
+.payment button{
+    margin-top: 10px;
+}
+.pay-now:hover{
+    text-decoration: underline;
+}
+
+.payment input{
+    max-width: 100%;
+    color: black;
+    height: 25px;
+}
+.button-submit{
+        border: none;
+            color: white;
+            background-color: #4E546B;
+            display: block;
+            text-align: center;
+            padding: 1%;
+            width: 100px;
+            border-radius: 3px;
+}
+.button{
+        border: none;
+        cursor: pointer;
+
+}
+.log-in{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.go-to-payment{
+    margin-top: 10px;
+                border: none;
+                    color: white;
+                    background-color: #4E546B;
+                    display: block;
+                    text-align: center;
+                    padding: 4px;
+                    width: 100px;
+                    display: block;
+                    border-radius: 3px;
+                    text-align: left;
+                 
 }
 
 @media (min-width: 1100px) {
