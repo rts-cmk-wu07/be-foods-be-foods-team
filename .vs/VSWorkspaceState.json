@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\components",
+    "\\components\\Modal"
   ],
-  "SelectedNode": "\\Views",
+  "SelectedNode": "\\components\\Modal\\modal.css",
   "PreviewInSolutionExplorer": false
 }
