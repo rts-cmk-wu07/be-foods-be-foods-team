@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="/assets/js/banner.js" defer></script>
     <script src="/assets/js/script.js" type="module" defer></script>
     <link rel="stylesheet" href="/components/modal/modal.css">
+<link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
 </head>
 <body>
 
@@ -27,8 +29,30 @@
         <div class="logo">
           <img src="/assets/img/BeFoodsLogo.png" alt="">
         </div>
-        <div class="login">
-           <p>Log ind</p> 
+        <div class="aaa">
+            <button class="shopping-basket button">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+            <!-- The modal for the shopping basket --------->
+            <div id="get-shopping-basket" class="modal__overlay">
+                <div class="modal modal--scrollable modal--width-80">
+                    <div class="modal__close">×</div>
+                    <div class="modal__title">
+                        <h1>Shopping liste</h1>
+                    </div>
+                    <div class="modal__content">
+                        <ul>
+                            <p>1</p>
+                            <p>2</p>
+                            <p>3</p>
+                            <p>4</p>
+                        </ul>
+                  <a href="/Views/payment.html"><button class="button go-to-payment">Gå til bestilling</button></a>      
+                    </div>
+                </div>
+            </div>
+            <!---------------------->
+         <a class="log-in" href="#"><p>Log ind</p></a>  
         </div>
     </header>
 
