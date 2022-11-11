@@ -5,18 +5,23 @@
     height: 250px;
     width: 300px;
     margin-left: 40px;
-    float: left;
-    position: relative;
+ 
+
     transition: height 0.5s;
     -webkit-transition: height 0.5s;
     text-align: center;
     overflow: hidden;
     position: absolute;
     background-color: white;
-    right: 0px;
+    right: 40px;
        
     transition: all .5s ease-in-out;
 }
+
+.among-us-ad img, video{
+    object-fit: fill;
+}
+
 
 main{
     margin-top: 250px;
