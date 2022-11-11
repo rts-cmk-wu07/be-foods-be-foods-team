@@ -1,0 +1,28 @@
+.among-us-ad {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    margin-left: 40px;
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+}
+
+main{
+    margin-top: 250px;
+}
+header{
+    margin-bottom: 10px;
+}
+
+.among-us-ad:hover {
+    height: 300px;
+    width: 600px;
+}
