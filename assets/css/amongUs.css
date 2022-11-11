@@ -13,6 +13,9 @@
     overflow: hidden;
     position: absolute;
     background-color: white;
+    right: 0px;
+       
+    transition: all .5s ease-in-out;
 }
 
 main{
@@ -25,4 +28,7 @@ header{
 .among-us-ad:hover {
     height: 300px;
     width: 600px;
+    transition: all .5s ease-in-out;
+        transform-origin: right top;
+     
 }
